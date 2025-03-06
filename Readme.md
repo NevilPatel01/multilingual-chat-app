@@ -2,12 +2,10 @@
 
 VoiceAI is an intuitive and interactive Android application built with Kotlin that allows users to communicate with OpenAI's powerful language models using voice commands. With support for **multiple languages**, **real-time transcription**, and **text-to-speech responses**, VoiceAI provides a seamless conversational experience.
 
----
-
 ## Features ✨
 
 - **Multi-Language Support** 🌍  
-  Speak and receive responses in multiple languages, including English, Hindi, Spanish, and French.
+  Speak and receive responses in multiple languages (40+), including English, Hindi, Spanish, and French.
 
 - **Voice Recording** 🎙️  
   Record your voice with a single tap and convert it to text using OpenAI's Whisper API.
@@ -22,8 +20,6 @@ VoiceAI is an intuitive and interactive Android application built with Kotlin th
   - Animated mic button with sound wave effects.
   - Real-time transcription display for user input and AI responses.
   - Intuitive and modern design.
-
----
 
 ## Installation 🛠️
 
@@ -50,8 +46,6 @@ VoiceAI is an intuitive and interactive Android application built with Kotlin th
 - Connect an Android device or emulator.
 - Click Run in Android Studio to build and deploy the app.
 
----
-
 ## Usage 🚀
 
 ### **Select a Language**
@@ -68,7 +62,6 @@ VoiceAI is an intuitive and interactive Android application built with Kotlin th
 ### **View and Hear Responses**
 - The transcribed text and AI response will appear in a chat-like interface.
 - The AI's response will be spoken aloud in the selected language.
-
 
 ## Technologies Used 🛠️
 - Kotlin: Primary programming language for Android development.
