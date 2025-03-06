@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Test-realtime-app</string>
+    <string name="api_key"></string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>Hindi</item>
+    </string-array>
+
+    <string-array name="language_codes">
+        <item>en-US</item>
+        <item>es-ES</item>
+        <item>fr-FR</item>
+        <item>hi-IN</item>
+    </string-array>
+</resources>

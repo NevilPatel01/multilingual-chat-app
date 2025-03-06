@@ -1,0 +1,54 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- Language Selector -->
+    <Spinner
+        android:id="@+id/languageSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:entries="@array/languages"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/blue"
+        android:spinnerMode="dropdown"
+        android:padding="8dp"/>
+
+    <!-- Transcription Display -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/transcriptionRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:clipToPadding="false"/>
+
+    <!-- Recording Status -->
+    <TextView
+        android:id="@+id/recordingStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Start Recording"
+        android:textColor="@color/blue"
+        android:layout_marginTop="8dp"
+        android:visibility="visible"/>
+
+    <!-- Mic Button with Animation -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/micAnimation"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        app:lottie_autoPlay="false"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/mic_wave_animation"/>
+
+</LinearLayout>
